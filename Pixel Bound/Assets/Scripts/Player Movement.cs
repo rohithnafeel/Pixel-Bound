@@ -11,6 +11,13 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (Input.GetKey(KeyCode.A))
+        {
+            Debug.Log("Going Right");
+        }
+        if (Input.GetKey(KeyCode.D))
+        {
+            Debug.Log("Going Left");
+        }
     }
 }
